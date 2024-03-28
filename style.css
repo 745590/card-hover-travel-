@@ -1,0 +1,59 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    justify-content: space-between;
+    height: 550px;
+}
+.card1{
+    height: 266.67px;
+    width: 150px;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/05/japanese-17.jpg");
+    background-size: contain;
+    border-radius:8px;
+    padding:10px;
+}
+.card2{
+    height: 266.67px;
+    width: 150px;
+    background-image: url("https://wallpapercave.com/wp/wp5433850.jpg");
+    background-size: contain;
+    border-radius:8px;
+    padding:10px;
+}
+.card3{
+    height: 266.67px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/736x/ad/ba/c9/adbac92a9e1bb9639d4d90af77ac313d.jpg");
+    background-size: contain;
+    border-radius:8px;
+    padding:10px;
+}
+.card4{
+    height: 266.67px;
+    width: 150px;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/09/1920-1080-rocky-mountains.jpg");
+    background-size: contain;
+    border-radius:8px;
+    padding:10px;
+}
+ p h1 {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 80%;
+    padding: 10px;
+ }
